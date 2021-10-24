@@ -3,7 +3,7 @@ import pandas as pd
 
 def main():
     """
-    The func genrates a .csv file contains author and institution info
+    The func genrates a DataFrame contains author and institution info
     :return: DataFrame
     """
     main_data = pd.read_csv('publications_min.csv.gz', compression='gzip', index_col=False,
